@@ -1,10 +1,15 @@
 [ignore]
-.*/node_modules/.*
 .*/dist/.*
+.*/node_modules/@emotion/.*
+.*/node_modules/styled-props/src/.*
+.*/node_modules/@webassemblyjs/ieee754/src/.*
+.*/node_modules/babel-plugin-react-docgen/test/fixtures/flowTypeNotWorking/.*
+.*/node_modules/babel-plugin-transform-react-remove-prop-types/src/.*
+.*/node_modules/styled-components/test-utils/.*
+.*/stories/.*
 .*/src/test/.*
 .*/src/.*/test/.*
 
 [options]
 suppress_comment=.*\\$FlowFixMe
 suppress_comment=.*\\$FlowInvalidInputTest
-
