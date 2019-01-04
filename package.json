@@ -1,0 +1,63 @@
+{
+  "name": "styled-react-bootstrap",
+  "version": "0.0.1",
+  "description": "Bootstrap components built with React and Styled Components",
+  "main": "",
+  "scripts": {
+    "start": "parcel src/index.js",
+    "build": "parcel build src/index.js",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "test": "jest",
+    "test:watch": "npm run test -- --watch",
+    "flow": "flow check",
+    "flow:watch": "flow-watch",
+    "format": "eslint ./**/*.js --fix",
+    "lint": "eslint src",
+    "prettier": "prettier */**/*.js --write"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "repository": "git+https://github.com/dmnkgrc/StyledBootstrapComponents.git",
+  "keywords": [
+    "react",
+    "styled-components",
+    "bootstrap",
+    "css-in-js",
+    "css"
+  ],
+  "author": "Dominik García",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmnkgrc/StyledBootstrapComponents/issues"
+  },
+  "homepage": "https://github.com/dmnkgrc/StyledBootstrapComponents#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.2",
+    "flow-bin": "^0.89.0",
+    "jest": "^23.6.0",
+    "jest-image-snapshot": "^2.7.0",
+    "jest-styled-components": "^6.3.1",
+    "parcel-bundler": "^1.11.0",
+    "prettier": "^1.15.3",
+    "prettier-eslint": "^8.8.2",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "flow check && lint"
+    }
+  }
+}
