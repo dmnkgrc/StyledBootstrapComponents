@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Alert /> renders correctly 1`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  border-color: #b8daff;
+  background: #cce5ff;
+  color: #004085;
+}
+
+<Alert
+  element="div"
+  type="primary"
+>
+  <Alert__StyledAlert
+    element="div"
+    type="primary"
+  >
+    <StyledComponent
+      element="div"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Alert__StyledAlert-sc-5b21cp-0",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "position:relative;padding:0.75rem 1.25rem;margin-bottom:1rem;border:1px solid transparent;border-radius:0.25rem;border-color:",
+              [Function],
+              ";background:",
+              [Function],
+              ";color:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "Alert__StyledAlert",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      type="primary"
+    >
+      <div
+        className="c0"
+        type="primary"
+      >
+        Test alert
+      </div>
+    </StyledComponent>
+  </Alert__StyledAlert>
+</Alert>
+`;

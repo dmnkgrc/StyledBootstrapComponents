@@ -1,5 +1,7 @@
 // @flow
-import React from 'react';
+
+import React, { Fragment } from 'react';
+import type { Node } from 'react';
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
@@ -362,14 +364,14 @@ h6 {
 `;
 
 type Props = {
-  children: ?React.Node,
+  children: ?Node,
 };
 
 export const BootstrapWrapper = (props: Props) => (
-  <React.Fragment>
+  <Fragment>
     <GlobalStyle />
     {props.children}
-  </React.Fragment>
+  </Fragment>
 );
 
 export * from './Alert';
