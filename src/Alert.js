@@ -11,8 +11,11 @@ type Props = {
   element: string,
 };
 
-const buildType = (props: Props) => {
-  const StyledAlert = styled(`${props.element}`)`
+const createComponent = (StyledComponent, props) =>
+  React.createElement(StyledComponent, props);
+
+const buildAlert = (props: Props) => {
+  const StyledAlert = styled(props.element)`
     position: relative;
     padding: 0.75rem 1.25rem;
     margin-bottom: 1rem;
@@ -22,15 +25,29 @@ const buildType = (props: Props) => {
     background: ${styledProps(colors.backgrounds, 'type')};
     color: ${styledProps(colors.text, 'type')};
   `;
-  const component = React.createElement(StyledAlert, props);
-  return component;
+  return createComponent(StyledAlert, props);
 };
 
-const Alert = (props: Props) => buildType(props);
+const buildAlertLink = (props: Props) => {
+  const StyledAlertLink = styled(props.element)`
+    font-weight: 700;
+    color: ${styledProps(colors.link, 'type')};
+  `;
+  return createComponent(StyledAlertLink, props);
+};
+
+const Alert = (props: Props) => buildAlert(props);
 
 Alert.defaultProps = {
   element: 'div',
   type: 'primary',
 };
 
-export { Alert };
+const AlertLink = (props: Props) => buildAlertLink(props);
+
+AlertLink.defaultProps = {
+  element: 'a',
+  type: 'primary',
+};
+
+export { Alert, AlertLink };

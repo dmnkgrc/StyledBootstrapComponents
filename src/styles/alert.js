@@ -31,6 +31,16 @@ const colors = {
     light: '#fdfdfe',
     dark: '#c6c8ca',
   },
+  link: {
+    primary: '#002752',
+    secondary: '#202326',
+    success: '#0b2e13',
+    danger: '#491217',
+    warning: '#533f03',
+    info: '#062c33',
+    light: '#686868',
+    dark: '#040505',
+  }
 };
 
 export default colors;
