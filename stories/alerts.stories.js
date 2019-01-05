@@ -25,4 +25,24 @@ storiesOf('Alerts', module)
     <BootstrapWrapper>
       <Alert type="danger">A simple danger alert—check it out!</Alert>
     </BootstrapWrapper>
+  ))
+  .add('Warning', () => (
+    <BootstrapWrapper>
+      <Alert type="warning">A simple warning alert—check it out!</Alert>
+    </BootstrapWrapper>
+  ))
+  .add('Info', () => (
+    <BootstrapWrapper>
+      <Alert type="info">A simple info alert—check it out!</Alert>
+    </BootstrapWrapper>
+  ))
+  .add('Light', () => (
+    <BootstrapWrapper>
+      <Alert type="light">A simple light alert—check it out!</Alert>
+    </BootstrapWrapper>
+  ))
+  .add('Dark', () => (
+    <BootstrapWrapper>
+      <Alert type="dark">A simple dark alert—check it out!</Alert>
+    </BootstrapWrapper>
   ));

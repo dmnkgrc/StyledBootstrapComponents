@@ -1,5 +1,517 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<Alert /> has the right danger colors 1`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  border-color: #f5c6cb;
+  background: #f8d7da;
+  color: #721c24;
+}
+
+<Alert
+  element="div"
+  type="danger"
+>
+  <Alert__StyledAlert
+    element="div"
+    type="danger"
+  >
+    <StyledComponent
+      element="div"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Alert__StyledAlert-sc-5b21cp-0",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "position:relative;padding:0.75rem 1.25rem;margin-bottom:1rem;border:1px solid transparent;border-radius:0.25rem;border-color:",
+              [Function],
+              ";background:",
+              [Function],
+              ";color:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "Alert__StyledAlert",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      type="danger"
+    >
+      <div
+        className="c0"
+        type="danger"
+      >
+        Test alert
+      </div>
+    </StyledComponent>
+  </Alert__StyledAlert>
+</Alert>
+`;
+
+exports[`<Alert /> has the right dark colors 1`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  border-color: #c6c8ca;
+  background: #d6d8d9;
+  color: #1b1e21;
+}
+
+<Alert
+  element="div"
+  type="dark"
+>
+  <Alert__StyledAlert
+    element="div"
+    type="dark"
+  >
+    <StyledComponent
+      element="div"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Alert__StyledAlert-sc-5b21cp-0",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "position:relative;padding:0.75rem 1.25rem;margin-bottom:1rem;border:1px solid transparent;border-radius:0.25rem;border-color:",
+              [Function],
+              ";background:",
+              [Function],
+              ";color:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "Alert__StyledAlert",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      type="dark"
+    >
+      <div
+        className="c0"
+        type="dark"
+      >
+        Test alert
+      </div>
+    </StyledComponent>
+  </Alert__StyledAlert>
+</Alert>
+`;
+
+exports[`<Alert /> has the right info colors 1`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  border-color: #bee5eb;
+  background: #d1ecf1;
+  color: #0c5460;
+}
+
+<Alert
+  element="div"
+  type="info"
+>
+  <Alert__StyledAlert
+    element="div"
+    type="info"
+  >
+    <StyledComponent
+      element="div"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Alert__StyledAlert-sc-5b21cp-0",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "position:relative;padding:0.75rem 1.25rem;margin-bottom:1rem;border:1px solid transparent;border-radius:0.25rem;border-color:",
+              [Function],
+              ";background:",
+              [Function],
+              ";color:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "Alert__StyledAlert",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      type="info"
+    >
+      <div
+        className="c0"
+        type="info"
+      >
+        Test alert
+      </div>
+    </StyledComponent>
+  </Alert__StyledAlert>
+</Alert>
+`;
+
+exports[`<Alert /> has the right light colors 1`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  border-color: #fdfdfe;
+  background: #fefefe;
+  color: #818182;
+}
+
+<Alert
+  element="div"
+  type="light"
+>
+  <Alert__StyledAlert
+    element="div"
+    type="light"
+  >
+    <StyledComponent
+      element="div"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Alert__StyledAlert-sc-5b21cp-0",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "position:relative;padding:0.75rem 1.25rem;margin-bottom:1rem;border:1px solid transparent;border-radius:0.25rem;border-color:",
+              [Function],
+              ";background:",
+              [Function],
+              ";color:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "Alert__StyledAlert",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      type="light"
+    >
+      <div
+        className="c0"
+        type="light"
+      >
+        Test alert
+      </div>
+    </StyledComponent>
+  </Alert__StyledAlert>
+</Alert>
+`;
+
+exports[`<Alert /> has the right primary colors 1`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  border-color: #b8daff;
+  background: #cce5ff;
+  color: #004085;
+}
+
+<Alert
+  element="div"
+  type="primary"
+>
+  <Alert__StyledAlert
+    element="div"
+    type="primary"
+  >
+    <StyledComponent
+      element="div"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Alert__StyledAlert-sc-5b21cp-0",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "position:relative;padding:0.75rem 1.25rem;margin-bottom:1rem;border:1px solid transparent;border-radius:0.25rem;border-color:",
+              [Function],
+              ";background:",
+              [Function],
+              ";color:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "Alert__StyledAlert",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      type="primary"
+    >
+      <div
+        className="c0"
+        type="primary"
+      >
+        Test alert
+      </div>
+    </StyledComponent>
+  </Alert__StyledAlert>
+</Alert>
+`;
+
+exports[`<Alert /> has the right secondary colors 1`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  border-color: #d6d8db;
+  background: #e2e3e5;
+  color: #383d41;
+}
+
+<Alert
+  element="div"
+  type="secondary"
+>
+  <Alert__StyledAlert
+    element="div"
+    type="secondary"
+  >
+    <StyledComponent
+      element="div"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Alert__StyledAlert-sc-5b21cp-0",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "position:relative;padding:0.75rem 1.25rem;margin-bottom:1rem;border:1px solid transparent;border-radius:0.25rem;border-color:",
+              [Function],
+              ";background:",
+              [Function],
+              ";color:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "Alert__StyledAlert",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      type="secondary"
+    >
+      <div
+        className="c0"
+        type="secondary"
+      >
+        Test alert
+      </div>
+    </StyledComponent>
+  </Alert__StyledAlert>
+</Alert>
+`;
+
+exports[`<Alert /> has the right success colors 1`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  border-color: #c3e6cb;
+  background: #d4edda;
+  color: #155724;
+}
+
+<Alert
+  element="div"
+  type="success"
+>
+  <Alert__StyledAlert
+    element="div"
+    type="success"
+  >
+    <StyledComponent
+      element="div"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Alert__StyledAlert-sc-5b21cp-0",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "position:relative;padding:0.75rem 1.25rem;margin-bottom:1rem;border:1px solid transparent;border-radius:0.25rem;border-color:",
+              [Function],
+              ";background:",
+              [Function],
+              ";color:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "Alert__StyledAlert",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      type="success"
+    >
+      <div
+        className="c0"
+        type="success"
+      >
+        Test alert
+      </div>
+    </StyledComponent>
+  </Alert__StyledAlert>
+</Alert>
+`;
+
+exports[`<Alert /> has the right warning colors 1`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  border-color: #ffeeba;
+  background: #fff3cd;
+  color: #856404;
+}
+
+<Alert
+  element="div"
+  type="warning"
+>
+  <Alert__StyledAlert
+    element="div"
+    type="warning"
+  >
+    <StyledComponent
+      element="div"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Alert__StyledAlert-sc-5b21cp-0",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "position:relative;padding:0.75rem 1.25rem;margin-bottom:1rem;border:1px solid transparent;border-radius:0.25rem;border-color:",
+              [Function],
+              ";background:",
+              [Function],
+              ";color:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "Alert__StyledAlert",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      type="warning"
+    >
+      <div
+        className="c0"
+        type="warning"
+      >
+        Test alert
+      </div>
+    </StyledComponent>
+  </Alert__StyledAlert>
+</Alert>
+`;
+
 exports[`<Alert /> renders correctly 1`] = `
 .c0 {
   position: relative;
@@ -59,6 +571,70 @@ exports[`<Alert /> renders correctly 1`] = `
       >
         Test alert
       </div>
+    </StyledComponent>
+  </Alert__StyledAlert>
+</Alert>
+`;
+
+exports[`<Alert /> renders correctly other elements 1`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  border-color: #b8daff;
+  background: #cce5ff;
+  color: #004085;
+}
+
+<Alert
+  element="p"
+  type="primary"
+>
+  <Alert__StyledAlert
+    element="p"
+    type="primary"
+  >
+    <StyledComponent
+      element="p"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Alert__StyledAlert-sc-5b21cp-0",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "position:relative;padding:0.75rem 1.25rem;margin-bottom:1rem;border:1px solid transparent;border-radius:0.25rem;border-color:",
+              [Function],
+              ";background:",
+              [Function],
+              ";color:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "Alert__StyledAlert",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-0",
+          "target": "p",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      type="primary"
+    >
+      <p
+        className="c0"
+        type="primary"
+      >
+        Test alert
+      </p>
     </StyledComponent>
   </Alert__StyledAlert>
 </Alert>
