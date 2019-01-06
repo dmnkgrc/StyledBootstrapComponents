@@ -1,6 +1,1322 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Alert /> has the right danger colors 1`] = `
+exports[`<Alert /> Alert with AlertLink has the right link color 1`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  border-color: #b8daff;
+  background: #cce5ff;
+  color: #004085;
+}
+
+.c1 {
+  font-weight: 700;
+  color: #002752;
+}
+
+<Alert
+  element="div"
+  type="primary"
+>
+  <Alert__StyledAlert
+    element="div"
+    type="primary"
+  >
+    <StyledComponent
+      element="div"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Alert__StyledAlert-sc-5b21cp-1",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "position:relative;padding:0.75rem 1.25rem;margin-bottom:1rem;border:1px solid transparent;border-radius:0.25rem;border-color:",
+              [Function],
+              ";background:",
+              [Function],
+              ";color:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "Alert__StyledAlert",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-1",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      type="primary"
+    >
+      <div
+        className="c0"
+        type="primary"
+      >
+        Test alert 
+        <AlertLink
+          element="a"
+          href="#"
+          key=".1"
+          type="primary"
+        >
+          <Alert__StyledAlertLink
+            element="a"
+            href="#"
+            type="primary"
+          >
+            <StyledComponent
+              element="a"
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Alert__StyledAlertLink-sc-5b21cp-0",
+                    "isStatic": false,
+                    "lastClassName": "c1",
+                    "rules": Array [
+                      "font-weight:700;color:",
+                      [Function],
+                      ";",
+                    ],
+                  },
+                  "displayName": "Alert__StyledAlertLink",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "Alert__StyledAlertLink-sc-5b21cp-0",
+                  "target": "a",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              href="#"
+              type="primary"
+            >
+              <a
+                className="c1"
+                href="#"
+                type="primary"
+              >
+                with link
+              </a>
+            </StyledComponent>
+          </Alert__StyledAlertLink>
+        </AlertLink>
+      </div>
+    </StyledComponent>
+  </Alert__StyledAlert>
+</Alert>
+`;
+
+exports[`<Alert /> Alert with AlertLink has the right link color 2`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  border-color: #d6d8db;
+  background: #e2e3e5;
+  color: #383d41;
+}
+
+.c1 {
+  font-weight: 700;
+  color: #202326;
+}
+
+<Alert
+  element="div"
+  type="secondary"
+>
+  <Alert__StyledAlert
+    element="div"
+    type="secondary"
+  >
+    <StyledComponent
+      element="div"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Alert__StyledAlert-sc-5b21cp-1",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "position:relative;padding:0.75rem 1.25rem;margin-bottom:1rem;border:1px solid transparent;border-radius:0.25rem;border-color:",
+              [Function],
+              ";background:",
+              [Function],
+              ";color:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "Alert__StyledAlert",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-1",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      type="secondary"
+    >
+      <div
+        className="c0"
+        type="secondary"
+      >
+        Test alert 
+        <AlertLink
+          element="a"
+          href="#"
+          key=".1"
+          type="secondary"
+        >
+          <Alert__StyledAlertLink
+            element="a"
+            href="#"
+            type="secondary"
+          >
+            <StyledComponent
+              element="a"
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Alert__StyledAlertLink-sc-5b21cp-0",
+                    "isStatic": false,
+                    "lastClassName": "c1",
+                    "rules": Array [
+                      "font-weight:700;color:",
+                      [Function],
+                      ";",
+                    ],
+                  },
+                  "displayName": "Alert__StyledAlertLink",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "Alert__StyledAlertLink-sc-5b21cp-0",
+                  "target": "a",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              href="#"
+              type="secondary"
+            >
+              <a
+                className="c1"
+                href="#"
+                type="secondary"
+              >
+                with link
+              </a>
+            </StyledComponent>
+          </Alert__StyledAlertLink>
+        </AlertLink>
+      </div>
+    </StyledComponent>
+  </Alert__StyledAlert>
+</Alert>
+`;
+
+exports[`<Alert /> Alert with AlertLink has the right link color 3`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  border-color: #c3e6cb;
+  background: #d4edda;
+  color: #155724;
+}
+
+.c1 {
+  font-weight: 700;
+  color: #0b2e13;
+}
+
+<Alert
+  element="div"
+  type="success"
+>
+  <Alert__StyledAlert
+    element="div"
+    type="success"
+  >
+    <StyledComponent
+      element="div"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Alert__StyledAlert-sc-5b21cp-1",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "position:relative;padding:0.75rem 1.25rem;margin-bottom:1rem;border:1px solid transparent;border-radius:0.25rem;border-color:",
+              [Function],
+              ";background:",
+              [Function],
+              ";color:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "Alert__StyledAlert",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-1",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      type="success"
+    >
+      <div
+        className="c0"
+        type="success"
+      >
+        Test alert 
+        <AlertLink
+          element="a"
+          href="#"
+          key=".1"
+          type="success"
+        >
+          <Alert__StyledAlertLink
+            element="a"
+            href="#"
+            type="success"
+          >
+            <StyledComponent
+              element="a"
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Alert__StyledAlertLink-sc-5b21cp-0",
+                    "isStatic": false,
+                    "lastClassName": "c1",
+                    "rules": Array [
+                      "font-weight:700;color:",
+                      [Function],
+                      ";",
+                    ],
+                  },
+                  "displayName": "Alert__StyledAlertLink",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "Alert__StyledAlertLink-sc-5b21cp-0",
+                  "target": "a",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              href="#"
+              type="success"
+            >
+              <a
+                className="c1"
+                href="#"
+                type="success"
+              >
+                with link
+              </a>
+            </StyledComponent>
+          </Alert__StyledAlertLink>
+        </AlertLink>
+      </div>
+    </StyledComponent>
+  </Alert__StyledAlert>
+</Alert>
+`;
+
+exports[`<Alert /> Alert with AlertLink has the right link color 4`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  border-color: #f5c6cb;
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.c1 {
+  font-weight: 700;
+  color: #491217;
+}
+
+<Alert
+  element="div"
+  type="danger"
+>
+  <Alert__StyledAlert
+    element="div"
+    type="danger"
+  >
+    <StyledComponent
+      element="div"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Alert__StyledAlert-sc-5b21cp-1",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "position:relative;padding:0.75rem 1.25rem;margin-bottom:1rem;border:1px solid transparent;border-radius:0.25rem;border-color:",
+              [Function],
+              ";background:",
+              [Function],
+              ";color:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "Alert__StyledAlert",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-1",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      type="danger"
+    >
+      <div
+        className="c0"
+        type="danger"
+      >
+        Test alert 
+        <AlertLink
+          element="a"
+          href="#"
+          key=".1"
+          type="danger"
+        >
+          <Alert__StyledAlertLink
+            element="a"
+            href="#"
+            type="danger"
+          >
+            <StyledComponent
+              element="a"
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Alert__StyledAlertLink-sc-5b21cp-0",
+                    "isStatic": false,
+                    "lastClassName": "c1",
+                    "rules": Array [
+                      "font-weight:700;color:",
+                      [Function],
+                      ";",
+                    ],
+                  },
+                  "displayName": "Alert__StyledAlertLink",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "Alert__StyledAlertLink-sc-5b21cp-0",
+                  "target": "a",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              href="#"
+              type="danger"
+            >
+              <a
+                className="c1"
+                href="#"
+                type="danger"
+              >
+                with link
+              </a>
+            </StyledComponent>
+          </Alert__StyledAlertLink>
+        </AlertLink>
+      </div>
+    </StyledComponent>
+  </Alert__StyledAlert>
+</Alert>
+`;
+
+exports[`<Alert /> Alert with AlertLink has the right link color 5`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  border-color: #ffeeba;
+  background: #fff3cd;
+  color: #856404;
+}
+
+.c1 {
+  font-weight: 700;
+  color: #533f03;
+}
+
+<Alert
+  element="div"
+  type="warning"
+>
+  <Alert__StyledAlert
+    element="div"
+    type="warning"
+  >
+    <StyledComponent
+      element="div"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Alert__StyledAlert-sc-5b21cp-1",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "position:relative;padding:0.75rem 1.25rem;margin-bottom:1rem;border:1px solid transparent;border-radius:0.25rem;border-color:",
+              [Function],
+              ";background:",
+              [Function],
+              ";color:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "Alert__StyledAlert",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-1",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      type="warning"
+    >
+      <div
+        className="c0"
+        type="warning"
+      >
+        Test alert 
+        <AlertLink
+          element="a"
+          href="#"
+          key=".1"
+          type="warning"
+        >
+          <Alert__StyledAlertLink
+            element="a"
+            href="#"
+            type="warning"
+          >
+            <StyledComponent
+              element="a"
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Alert__StyledAlertLink-sc-5b21cp-0",
+                    "isStatic": false,
+                    "lastClassName": "c1",
+                    "rules": Array [
+                      "font-weight:700;color:",
+                      [Function],
+                      ";",
+                    ],
+                  },
+                  "displayName": "Alert__StyledAlertLink",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "Alert__StyledAlertLink-sc-5b21cp-0",
+                  "target": "a",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              href="#"
+              type="warning"
+            >
+              <a
+                className="c1"
+                href="#"
+                type="warning"
+              >
+                with link
+              </a>
+            </StyledComponent>
+          </Alert__StyledAlertLink>
+        </AlertLink>
+      </div>
+    </StyledComponent>
+  </Alert__StyledAlert>
+</Alert>
+`;
+
+exports[`<Alert /> Alert with AlertLink has the right link color 6`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  border-color: #bee5eb;
+  background: #d1ecf1;
+  color: #0c5460;
+}
+
+.c1 {
+  font-weight: 700;
+  color: #062c33;
+}
+
+<Alert
+  element="div"
+  type="info"
+>
+  <Alert__StyledAlert
+    element="div"
+    type="info"
+  >
+    <StyledComponent
+      element="div"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Alert__StyledAlert-sc-5b21cp-1",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "position:relative;padding:0.75rem 1.25rem;margin-bottom:1rem;border:1px solid transparent;border-radius:0.25rem;border-color:",
+              [Function],
+              ";background:",
+              [Function],
+              ";color:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "Alert__StyledAlert",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-1",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      type="info"
+    >
+      <div
+        className="c0"
+        type="info"
+      >
+        Test alert 
+        <AlertLink
+          element="a"
+          href="#"
+          key=".1"
+          type="info"
+        >
+          <Alert__StyledAlertLink
+            element="a"
+            href="#"
+            type="info"
+          >
+            <StyledComponent
+              element="a"
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Alert__StyledAlertLink-sc-5b21cp-0",
+                    "isStatic": false,
+                    "lastClassName": "c1",
+                    "rules": Array [
+                      "font-weight:700;color:",
+                      [Function],
+                      ";",
+                    ],
+                  },
+                  "displayName": "Alert__StyledAlertLink",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "Alert__StyledAlertLink-sc-5b21cp-0",
+                  "target": "a",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              href="#"
+              type="info"
+            >
+              <a
+                className="c1"
+                href="#"
+                type="info"
+              >
+                with link
+              </a>
+            </StyledComponent>
+          </Alert__StyledAlertLink>
+        </AlertLink>
+      </div>
+    </StyledComponent>
+  </Alert__StyledAlert>
+</Alert>
+`;
+
+exports[`<Alert /> Alert with AlertLink has the right link color 7`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  border-color: #fdfdfe;
+  background: #fefefe;
+  color: #818182;
+}
+
+.c1 {
+  font-weight: 700;
+  color: #686868;
+}
+
+<Alert
+  element="div"
+  type="light"
+>
+  <Alert__StyledAlert
+    element="div"
+    type="light"
+  >
+    <StyledComponent
+      element="div"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Alert__StyledAlert-sc-5b21cp-1",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "position:relative;padding:0.75rem 1.25rem;margin-bottom:1rem;border:1px solid transparent;border-radius:0.25rem;border-color:",
+              [Function],
+              ";background:",
+              [Function],
+              ";color:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "Alert__StyledAlert",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-1",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      type="light"
+    >
+      <div
+        className="c0"
+        type="light"
+      >
+        Test alert 
+        <AlertLink
+          element="a"
+          href="#"
+          key=".1"
+          type="light"
+        >
+          <Alert__StyledAlertLink
+            element="a"
+            href="#"
+            type="light"
+          >
+            <StyledComponent
+              element="a"
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Alert__StyledAlertLink-sc-5b21cp-0",
+                    "isStatic": false,
+                    "lastClassName": "c1",
+                    "rules": Array [
+                      "font-weight:700;color:",
+                      [Function],
+                      ";",
+                    ],
+                  },
+                  "displayName": "Alert__StyledAlertLink",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "Alert__StyledAlertLink-sc-5b21cp-0",
+                  "target": "a",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              href="#"
+              type="light"
+            >
+              <a
+                className="c1"
+                href="#"
+                type="light"
+              >
+                with link
+              </a>
+            </StyledComponent>
+          </Alert__StyledAlertLink>
+        </AlertLink>
+      </div>
+    </StyledComponent>
+  </Alert__StyledAlert>
+</Alert>
+`;
+
+exports[`<Alert /> Alert with AlertLink has the right link color 8`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  border-color: #c6c8ca;
+  background: #d6d8d9;
+  color: #1b1e21;
+}
+
+.c1 {
+  font-weight: 700;
+  color: #040505;
+}
+
+<Alert
+  element="div"
+  type="dark"
+>
+  <Alert__StyledAlert
+    element="div"
+    type="dark"
+  >
+    <StyledComponent
+      element="div"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Alert__StyledAlert-sc-5b21cp-1",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "position:relative;padding:0.75rem 1.25rem;margin-bottom:1rem;border:1px solid transparent;border-radius:0.25rem;border-color:",
+              [Function],
+              ";background:",
+              [Function],
+              ";color:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "Alert__StyledAlert",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-1",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      type="dark"
+    >
+      <div
+        className="c0"
+        type="dark"
+      >
+        Test alert 
+        <AlertLink
+          element="a"
+          href="#"
+          key=".1"
+          type="dark"
+        >
+          <Alert__StyledAlertLink
+            element="a"
+            href="#"
+            type="dark"
+          >
+            <StyledComponent
+              element="a"
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Alert__StyledAlertLink-sc-5b21cp-0",
+                    "isStatic": false,
+                    "lastClassName": "c1",
+                    "rules": Array [
+                      "font-weight:700;color:",
+                      [Function],
+                      ";",
+                    ],
+                  },
+                  "displayName": "Alert__StyledAlertLink",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "Alert__StyledAlertLink-sc-5b21cp-0",
+                  "target": "a",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              href="#"
+              type="dark"
+            >
+              <a
+                className="c1"
+                href="#"
+                type="dark"
+              >
+                with link
+              </a>
+            </StyledComponent>
+          </Alert__StyledAlertLink>
+        </AlertLink>
+      </div>
+    </StyledComponent>
+  </Alert__StyledAlert>
+</Alert>
+`;
+
+exports[`<Alert /> Alert with AlertLink has the right primary link color 1`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  border-color: #b8daff;
+  background: #cce5ff;
+  color: #004085;
+}
+
+.c1 {
+  font-weight: 700;
+  color: #002752;
+}
+
+<Alert
+  element="div"
+  type="primary"
+>
+  <Alert__StyledAlert
+    element="div"
+    type="primary"
+  >
+    <StyledComponent
+      element="div"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Alert__StyledAlert-sc-5b21cp-1",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "position:relative;padding:0.75rem 1.25rem;margin-bottom:1rem;border:1px solid transparent;border-radius:0.25rem;border-color:",
+              [Function],
+              ";background:",
+              [Function],
+              ";color:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "Alert__StyledAlert",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-1",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      type="primary"
+    >
+      <div
+        className="c0"
+        type="primary"
+      >
+        Test alert 
+        <AlertLink
+          element="a"
+          href="#"
+          key=".1"
+          type="primary"
+        >
+          <Alert__StyledAlertLink
+            element="a"
+            href="#"
+            type="primary"
+          >
+            <StyledComponent
+              element="a"
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Alert__StyledAlertLink-sc-5b21cp-0",
+                    "isStatic": false,
+                    "lastClassName": "c1",
+                    "rules": Array [
+                      "font-weight:700;color:",
+                      [Function],
+                      ";",
+                    ],
+                  },
+                  "displayName": "Alert__StyledAlertLink",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "Alert__StyledAlertLink-sc-5b21cp-0",
+                  "target": "a",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              href="#"
+              type="primary"
+            >
+              <a
+                className="c1"
+                href="#"
+                type="primary"
+              >
+                with link
+              </a>
+            </StyledComponent>
+          </Alert__StyledAlertLink>
+        </AlertLink>
+      </div>
+    </StyledComponent>
+  </Alert__StyledAlert>
+</Alert>
+`;
+
+exports[`<Alert /> Alert with AlertLink renders correctly 1`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  border-color: #b8daff;
+  background: #cce5ff;
+  color: #004085;
+}
+
+.c1 {
+  font-weight: 700;
+  color: #002752;
+}
+
+<Alert
+  element="div"
+  type="primary"
+>
+  <Alert__StyledAlert
+    element="div"
+    type="primary"
+  >
+    <StyledComponent
+      element="div"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Alert__StyledAlert-sc-5b21cp-1",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "position:relative;padding:0.75rem 1.25rem;margin-bottom:1rem;border:1px solid transparent;border-radius:0.25rem;border-color:",
+              [Function],
+              ";background:",
+              [Function],
+              ";color:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "Alert__StyledAlert",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-1",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      type="primary"
+    >
+      <div
+        className="c0"
+        type="primary"
+      >
+        Test alert 
+        <AlertLink
+          element="a"
+          href="#"
+          key=".1"
+          type="primary"
+        >
+          <Alert__StyledAlertLink
+            element="a"
+            href="#"
+            type="primary"
+          >
+            <StyledComponent
+              element="a"
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Alert__StyledAlertLink-sc-5b21cp-0",
+                    "isStatic": false,
+                    "lastClassName": "c1",
+                    "rules": Array [
+                      "font-weight:700;color:",
+                      [Function],
+                      ";",
+                    ],
+                  },
+                  "displayName": "Alert__StyledAlertLink",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "Alert__StyledAlertLink-sc-5b21cp-0",
+                  "target": "a",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              href="#"
+              type="primary"
+            >
+              <a
+                className="c1"
+                href="#"
+                type="primary"
+              >
+                with link
+              </a>
+            </StyledComponent>
+          </Alert__StyledAlertLink>
+        </AlertLink>
+      </div>
+    </StyledComponent>
+  </Alert__StyledAlert>
+</Alert>
+`;
+
+exports[`<Alert /> Alert with AlertLink renders correctly other elements 1`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  border-color: #b8daff;
+  background: #cce5ff;
+  color: #004085;
+}
+
+.c1 {
+  font-weight: 700;
+  color: #002752;
+}
+
+<Alert
+  element="div"
+  type="primary"
+>
+  <Alert__StyledAlert
+    element="div"
+    type="primary"
+  >
+    <StyledComponent
+      element="div"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Alert__StyledAlert-sc-5b21cp-1",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "position:relative;padding:0.75rem 1.25rem;margin-bottom:1rem;border:1px solid transparent;border-radius:0.25rem;border-color:",
+              [Function],
+              ";background:",
+              [Function],
+              ";color:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "Alert__StyledAlert",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-1",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      type="primary"
+    >
+      <div
+        className="c0"
+        type="primary"
+      >
+        Test alert 
+        <AlertLink
+          element="p"
+          key=".1"
+          type="primary"
+        >
+          <Alert__StyledAlertLink
+            element="p"
+            type="primary"
+          >
+            <StyledComponent
+              element="p"
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Alert__StyledAlertLink-sc-5b21cp-0",
+                    "isStatic": false,
+                    "lastClassName": "c1",
+                    "rules": Array [
+                      "font-weight:700;color:",
+                      [Function],
+                      ";",
+                    ],
+                  },
+                  "displayName": "Alert__StyledAlertLink",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "Alert__StyledAlertLink-sc-5b21cp-0",
+                  "target": "p",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              type="primary"
+            >
+              <p
+                className="c1"
+                type="primary"
+              >
+                with link
+              </p>
+            </StyledComponent>
+          </Alert__StyledAlertLink>
+        </AlertLink>
+      </div>
+    </StyledComponent>
+  </Alert__StyledAlert>
+</Alert>
+`;
+
+exports[`<Alert /> Simple Alert has the right danger colors 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -27,7 +1343,7 @@ exports[`<Alert /> has the right danger colors 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "Alert__StyledAlert-sc-5b21cp-0",
+            "componentId": "Alert__StyledAlert-sc-5b21cp-1",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
@@ -43,7 +1359,7 @@ exports[`<Alert /> has the right danger colors 1`] = `
           "displayName": "Alert__StyledAlert",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-0",
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-1",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -64,7 +1380,7 @@ exports[`<Alert /> has the right danger colors 1`] = `
 </Alert>
 `;
 
-exports[`<Alert /> has the right dark colors 1`] = `
+exports[`<Alert /> Simple Alert has the right dark colors 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -91,7 +1407,7 @@ exports[`<Alert /> has the right dark colors 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "Alert__StyledAlert-sc-5b21cp-0",
+            "componentId": "Alert__StyledAlert-sc-5b21cp-1",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
@@ -107,7 +1423,7 @@ exports[`<Alert /> has the right dark colors 1`] = `
           "displayName": "Alert__StyledAlert",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-0",
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-1",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -128,7 +1444,7 @@ exports[`<Alert /> has the right dark colors 1`] = `
 </Alert>
 `;
 
-exports[`<Alert /> has the right info colors 1`] = `
+exports[`<Alert /> Simple Alert has the right info colors 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -155,7 +1471,7 @@ exports[`<Alert /> has the right info colors 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "Alert__StyledAlert-sc-5b21cp-0",
+            "componentId": "Alert__StyledAlert-sc-5b21cp-1",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
@@ -171,7 +1487,7 @@ exports[`<Alert /> has the right info colors 1`] = `
           "displayName": "Alert__StyledAlert",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-0",
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-1",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -192,7 +1508,7 @@ exports[`<Alert /> has the right info colors 1`] = `
 </Alert>
 `;
 
-exports[`<Alert /> has the right light colors 1`] = `
+exports[`<Alert /> Simple Alert has the right light colors 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -219,7 +1535,7 @@ exports[`<Alert /> has the right light colors 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "Alert__StyledAlert-sc-5b21cp-0",
+            "componentId": "Alert__StyledAlert-sc-5b21cp-1",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
@@ -235,7 +1551,7 @@ exports[`<Alert /> has the right light colors 1`] = `
           "displayName": "Alert__StyledAlert",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-0",
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-1",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -256,7 +1572,7 @@ exports[`<Alert /> has the right light colors 1`] = `
 </Alert>
 `;
 
-exports[`<Alert /> has the right primary colors 1`] = `
+exports[`<Alert /> Simple Alert has the right primary colors 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -283,7 +1599,7 @@ exports[`<Alert /> has the right primary colors 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "Alert__StyledAlert-sc-5b21cp-0",
+            "componentId": "Alert__StyledAlert-sc-5b21cp-1",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
@@ -299,7 +1615,7 @@ exports[`<Alert /> has the right primary colors 1`] = `
           "displayName": "Alert__StyledAlert",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-0",
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-1",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -320,7 +1636,7 @@ exports[`<Alert /> has the right primary colors 1`] = `
 </Alert>
 `;
 
-exports[`<Alert /> has the right secondary colors 1`] = `
+exports[`<Alert /> Simple Alert has the right secondary colors 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -347,7 +1663,7 @@ exports[`<Alert /> has the right secondary colors 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "Alert__StyledAlert-sc-5b21cp-0",
+            "componentId": "Alert__StyledAlert-sc-5b21cp-1",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
@@ -363,7 +1679,7 @@ exports[`<Alert /> has the right secondary colors 1`] = `
           "displayName": "Alert__StyledAlert",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-0",
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-1",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -384,7 +1700,7 @@ exports[`<Alert /> has the right secondary colors 1`] = `
 </Alert>
 `;
 
-exports[`<Alert /> has the right success colors 1`] = `
+exports[`<Alert /> Simple Alert has the right success colors 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -411,7 +1727,7 @@ exports[`<Alert /> has the right success colors 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "Alert__StyledAlert-sc-5b21cp-0",
+            "componentId": "Alert__StyledAlert-sc-5b21cp-1",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
@@ -427,7 +1743,7 @@ exports[`<Alert /> has the right success colors 1`] = `
           "displayName": "Alert__StyledAlert",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-0",
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-1",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -448,7 +1764,7 @@ exports[`<Alert /> has the right success colors 1`] = `
 </Alert>
 `;
 
-exports[`<Alert /> has the right warning colors 1`] = `
+exports[`<Alert /> Simple Alert has the right warning colors 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -475,7 +1791,7 @@ exports[`<Alert /> has the right warning colors 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "Alert__StyledAlert-sc-5b21cp-0",
+            "componentId": "Alert__StyledAlert-sc-5b21cp-1",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
@@ -491,7 +1807,7 @@ exports[`<Alert /> has the right warning colors 1`] = `
           "displayName": "Alert__StyledAlert",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-0",
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-1",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -512,7 +1828,7 @@ exports[`<Alert /> has the right warning colors 1`] = `
 </Alert>
 `;
 
-exports[`<Alert /> renders correctly 1`] = `
+exports[`<Alert /> Simple Alert renders correctly 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -539,7 +1855,7 @@ exports[`<Alert /> renders correctly 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "Alert__StyledAlert-sc-5b21cp-0",
+            "componentId": "Alert__StyledAlert-sc-5b21cp-1",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
@@ -555,7 +1871,7 @@ exports[`<Alert /> renders correctly 1`] = `
           "displayName": "Alert__StyledAlert",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-0",
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-1",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -576,7 +1892,7 @@ exports[`<Alert /> renders correctly 1`] = `
 </Alert>
 `;
 
-exports[`<Alert /> renders correctly other elements 1`] = `
+exports[`<Alert /> Simple Alert renders correctly other elements 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -603,7 +1919,7 @@ exports[`<Alert /> renders correctly other elements 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "Alert__StyledAlert-sc-5b21cp-0",
+            "componentId": "Alert__StyledAlert-sc-5b21cp-1",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
@@ -619,7 +1935,7 @@ exports[`<Alert /> renders correctly other elements 1`] = `
           "displayName": "Alert__StyledAlert",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-0",
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-1",
           "target": "p",
           "toString": [Function],
           "warnTooManyClasses": [Function],
