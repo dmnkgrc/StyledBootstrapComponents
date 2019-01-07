@@ -40,7 +40,17 @@ const colors = {
     info: '#062c33',
     light: '#686868',
     dark: '#040505',
-  }
+  },
+  hr: {
+    primary: '#9fcdff',
+    secondary: '#c8cbcf',
+    success: '#b1dfbb',
+    danger: '#f1b0b7',
+    warning: '#ffe8a1',
+    info: '#abdde5',
+    light: '#ececf6',
+    dark: '#b9bbbe',
+  },
 };
 
 export default colors;

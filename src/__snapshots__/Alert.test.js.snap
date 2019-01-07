@@ -12,6 +12,10 @@ exports[`<Alert /> Alert with AlertLink has the right link color 1`] = `
   color: #004085;
 }
 
+.c0 hr {
+  border-top-color: #9fcdff;
+}
+
 .c1 {
   font-weight: 700;
   color: #002752;
@@ -42,7 +46,9 @@ exports[`<Alert /> Alert with AlertLink has the right link color 1`] = `
               [Function],
               ";color:",
               [Function],
-              ";",
+              ";hr{border-top-color:",
+              [Function],
+              ";}",
             ],
           },
           "displayName": "Alert__StyledAlert",
@@ -132,6 +138,10 @@ exports[`<Alert /> Alert with AlertLink has the right link color 2`] = `
   color: #383d41;
 }
 
+.c0 hr {
+  border-top-color: #c8cbcf;
+}
+
 .c1 {
   font-weight: 700;
   color: #202326;
@@ -162,7 +172,9 @@ exports[`<Alert /> Alert with AlertLink has the right link color 2`] = `
               [Function],
               ";color:",
               [Function],
-              ";",
+              ";hr{border-top-color:",
+              [Function],
+              ";}",
             ],
           },
           "displayName": "Alert__StyledAlert",
@@ -252,6 +264,10 @@ exports[`<Alert /> Alert with AlertLink has the right link color 3`] = `
   color: #155724;
 }
 
+.c0 hr {
+  border-top-color: #b1dfbb;
+}
+
 .c1 {
   font-weight: 700;
   color: #0b2e13;
@@ -282,7 +298,9 @@ exports[`<Alert /> Alert with AlertLink has the right link color 3`] = `
               [Function],
               ";color:",
               [Function],
-              ";",
+              ";hr{border-top-color:",
+              [Function],
+              ";}",
             ],
           },
           "displayName": "Alert__StyledAlert",
@@ -372,6 +390,10 @@ exports[`<Alert /> Alert with AlertLink has the right link color 4`] = `
   color: #721c24;
 }
 
+.c0 hr {
+  border-top-color: #f1b0b7;
+}
+
 .c1 {
   font-weight: 700;
   color: #491217;
@@ -402,7 +424,9 @@ exports[`<Alert /> Alert with AlertLink has the right link color 4`] = `
               [Function],
               ";color:",
               [Function],
-              ";",
+              ";hr{border-top-color:",
+              [Function],
+              ";}",
             ],
           },
           "displayName": "Alert__StyledAlert",
@@ -492,6 +516,10 @@ exports[`<Alert /> Alert with AlertLink has the right link color 5`] = `
   color: #856404;
 }
 
+.c0 hr {
+  border-top-color: #ffe8a1;
+}
+
 .c1 {
   font-weight: 700;
   color: #533f03;
@@ -522,7 +550,9 @@ exports[`<Alert /> Alert with AlertLink has the right link color 5`] = `
               [Function],
               ";color:",
               [Function],
-              ";",
+              ";hr{border-top-color:",
+              [Function],
+              ";}",
             ],
           },
           "displayName": "Alert__StyledAlert",
@@ -612,6 +642,10 @@ exports[`<Alert /> Alert with AlertLink has the right link color 6`] = `
   color: #0c5460;
 }
 
+.c0 hr {
+  border-top-color: #abdde5;
+}
+
 .c1 {
   font-weight: 700;
   color: #062c33;
@@ -642,7 +676,9 @@ exports[`<Alert /> Alert with AlertLink has the right link color 6`] = `
               [Function],
               ";color:",
               [Function],
-              ";",
+              ";hr{border-top-color:",
+              [Function],
+              ";}",
             ],
           },
           "displayName": "Alert__StyledAlert",
@@ -732,6 +768,10 @@ exports[`<Alert /> Alert with AlertLink has the right link color 7`] = `
   color: #818182;
 }
 
+.c0 hr {
+  border-top-color: #ececf6;
+}
+
 .c1 {
   font-weight: 700;
   color: #686868;
@@ -762,7 +802,9 @@ exports[`<Alert /> Alert with AlertLink has the right link color 7`] = `
               [Function],
               ";color:",
               [Function],
-              ";",
+              ";hr{border-top-color:",
+              [Function],
+              ";}",
             ],
           },
           "displayName": "Alert__StyledAlert",
@@ -852,6 +894,10 @@ exports[`<Alert /> Alert with AlertLink has the right link color 8`] = `
   color: #1b1e21;
 }
 
+.c0 hr {
+  border-top-color: #b9bbbe;
+}
+
 .c1 {
   font-weight: 700;
   color: #040505;
@@ -882,7 +928,9 @@ exports[`<Alert /> Alert with AlertLink has the right link color 8`] = `
               [Function],
               ";color:",
               [Function],
-              ";",
+              ";hr{border-top-color:",
+              [Function],
+              ";}",
             ],
           },
           "displayName": "Alert__StyledAlert",
@@ -972,6 +1020,10 @@ exports[`<Alert /> Alert with AlertLink has the right primary link color 1`] = `
   color: #004085;
 }
 
+.c0 hr {
+  border-top-color: #9fcdff;
+}
+
 .c1 {
   font-weight: 700;
   color: #002752;
@@ -1002,7 +1054,9 @@ exports[`<Alert /> Alert with AlertLink has the right primary link color 1`] = `
               [Function],
               ";color:",
               [Function],
-              ";",
+              ";hr{border-top-color:",
+              [Function],
+              ";}",
             ],
           },
           "displayName": "Alert__StyledAlert",
@@ -1092,6 +1146,10 @@ exports[`<Alert /> Alert with AlertLink renders correctly 1`] = `
   color: #004085;
 }
 
+.c0 hr {
+  border-top-color: #9fcdff;
+}
+
 .c1 {
   font-weight: 700;
   color: #002752;
@@ -1122,7 +1180,9 @@ exports[`<Alert /> Alert with AlertLink renders correctly 1`] = `
               [Function],
               ";color:",
               [Function],
-              ";",
+              ";hr{border-top-color:",
+              [Function],
+              ";}",
             ],
           },
           "displayName": "Alert__StyledAlert",
@@ -1212,6 +1272,10 @@ exports[`<Alert /> Alert with AlertLink renders correctly other elements 1`] = `
   color: #004085;
 }
 
+.c0 hr {
+  border-top-color: #9fcdff;
+}
+
 .c1 {
   font-weight: 700;
   color: #002752;
@@ -1242,7 +1306,9 @@ exports[`<Alert /> Alert with AlertLink renders correctly other elements 1`] = `
               [Function],
               ";color:",
               [Function],
-              ";",
+              ";hr{border-top-color:",
+              [Function],
+              ";}",
             ],
           },
           "displayName": "Alert__StyledAlert",
@@ -1316,6 +1382,93 @@ exports[`<Alert /> Alert with AlertLink renders correctly other elements 1`] = `
 </Alert>
 `;
 
+exports[`<Alert /> Alert with content renders the right elements 1`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  border-color: #b8daff;
+  background: #cce5ff;
+  color: #004085;
+}
+
+.c0 hr {
+  border-top-color: #9fcdff;
+}
+
+<Alert
+  element="div"
+  type="primary"
+>
+  <Alert__StyledAlert
+    element="div"
+    type="primary"
+  >
+    <StyledComponent
+      element="div"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Alert__StyledAlert-sc-5b21cp-1",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "position:relative;padding:0.75rem 1.25rem;margin-bottom:1rem;border:1px solid transparent;border-radius:0.25rem;border-color:",
+              [Function],
+              ";background:",
+              [Function],
+              ";color:",
+              [Function],
+              ";hr{border-top-color:",
+              [Function],
+              ";}",
+            ],
+          },
+          "displayName": "Alert__StyledAlert",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Alert__StyledAlert-sc-5b21cp-1",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      type="primary"
+    >
+      <div
+        className="c0"
+        type="primary"
+      >
+        <h4
+          key=".0"
+        >
+          Well done!
+        </h4>
+        <p
+          key=".1"
+        >
+          Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.
+        </p>
+        <hr
+          key=".2"
+        />
+        <p
+          key=".3"
+        >
+          Whenever you need to, be sure to use margin utilities to keep things nice and tidy.
+        </p>
+      </div>
+    </StyledComponent>
+  </Alert__StyledAlert>
+</Alert>
+`;
+
 exports[`<Alert /> Simple Alert has the right danger colors 1`] = `
 .c0 {
   position: relative;
@@ -1326,6 +1479,10 @@ exports[`<Alert /> Simple Alert has the right danger colors 1`] = `
   border-color: #f5c6cb;
   background: #f8d7da;
   color: #721c24;
+}
+
+.c0 hr {
+  border-top-color: #f1b0b7;
 }
 
 <Alert
@@ -1353,7 +1510,9 @@ exports[`<Alert /> Simple Alert has the right danger colors 1`] = `
               [Function],
               ";color:",
               [Function],
-              ";",
+              ";hr{border-top-color:",
+              [Function],
+              ";}",
             ],
           },
           "displayName": "Alert__StyledAlert",
@@ -1392,6 +1551,10 @@ exports[`<Alert /> Simple Alert has the right dark colors 1`] = `
   color: #1b1e21;
 }
 
+.c0 hr {
+  border-top-color: #b9bbbe;
+}
+
 <Alert
   element="div"
   type="dark"
@@ -1417,7 +1580,9 @@ exports[`<Alert /> Simple Alert has the right dark colors 1`] = `
               [Function],
               ";color:",
               [Function],
-              ";",
+              ";hr{border-top-color:",
+              [Function],
+              ";}",
             ],
           },
           "displayName": "Alert__StyledAlert",
@@ -1456,6 +1621,10 @@ exports[`<Alert /> Simple Alert has the right info colors 1`] = `
   color: #0c5460;
 }
 
+.c0 hr {
+  border-top-color: #abdde5;
+}
+
 <Alert
   element="div"
   type="info"
@@ -1481,7 +1650,9 @@ exports[`<Alert /> Simple Alert has the right info colors 1`] = `
               [Function],
               ";color:",
               [Function],
-              ";",
+              ";hr{border-top-color:",
+              [Function],
+              ";}",
             ],
           },
           "displayName": "Alert__StyledAlert",
@@ -1520,6 +1691,10 @@ exports[`<Alert /> Simple Alert has the right light colors 1`] = `
   color: #818182;
 }
 
+.c0 hr {
+  border-top-color: #ececf6;
+}
+
 <Alert
   element="div"
   type="light"
@@ -1545,7 +1720,9 @@ exports[`<Alert /> Simple Alert has the right light colors 1`] = `
               [Function],
               ";color:",
               [Function],
-              ";",
+              ";hr{border-top-color:",
+              [Function],
+              ";}",
             ],
           },
           "displayName": "Alert__StyledAlert",
@@ -1584,6 +1761,10 @@ exports[`<Alert /> Simple Alert has the right primary colors 1`] = `
   color: #004085;
 }
 
+.c0 hr {
+  border-top-color: #9fcdff;
+}
+
 <Alert
   element="div"
   type="primary"
@@ -1609,7 +1790,9 @@ exports[`<Alert /> Simple Alert has the right primary colors 1`] = `
               [Function],
               ";color:",
               [Function],
-              ";",
+              ";hr{border-top-color:",
+              [Function],
+              ";}",
             ],
           },
           "displayName": "Alert__StyledAlert",
@@ -1648,6 +1831,10 @@ exports[`<Alert /> Simple Alert has the right secondary colors 1`] = `
   color: #383d41;
 }
 
+.c0 hr {
+  border-top-color: #c8cbcf;
+}
+
 <Alert
   element="div"
   type="secondary"
@@ -1673,7 +1860,9 @@ exports[`<Alert /> Simple Alert has the right secondary colors 1`] = `
               [Function],
               ";color:",
               [Function],
-              ";",
+              ";hr{border-top-color:",
+              [Function],
+              ";}",
             ],
           },
           "displayName": "Alert__StyledAlert",
@@ -1712,6 +1901,10 @@ exports[`<Alert /> Simple Alert has the right success colors 1`] = `
   color: #155724;
 }
 
+.c0 hr {
+  border-top-color: #b1dfbb;
+}
+
 <Alert
   element="div"
   type="success"
@@ -1737,7 +1930,9 @@ exports[`<Alert /> Simple Alert has the right success colors 1`] = `
               [Function],
               ";color:",
               [Function],
-              ";",
+              ";hr{border-top-color:",
+              [Function],
+              ";}",
             ],
           },
           "displayName": "Alert__StyledAlert",
@@ -1776,6 +1971,10 @@ exports[`<Alert /> Simple Alert has the right warning colors 1`] = `
   color: #856404;
 }
 
+.c0 hr {
+  border-top-color: #ffe8a1;
+}
+
 <Alert
   element="div"
   type="warning"
@@ -1801,7 +2000,9 @@ exports[`<Alert /> Simple Alert has the right warning colors 1`] = `
               [Function],
               ";color:",
               [Function],
-              ";",
+              ";hr{border-top-color:",
+              [Function],
+              ";}",
             ],
           },
           "displayName": "Alert__StyledAlert",
@@ -1840,6 +2041,10 @@ exports[`<Alert /> Simple Alert renders correctly 1`] = `
   color: #004085;
 }
 
+.c0 hr {
+  border-top-color: #9fcdff;
+}
+
 <Alert
   element="div"
   type="primary"
@@ -1865,7 +2070,9 @@ exports[`<Alert /> Simple Alert renders correctly 1`] = `
               [Function],
               ";color:",
               [Function],
-              ";",
+              ";hr{border-top-color:",
+              [Function],
+              ";}",
             ],
           },
           "displayName": "Alert__StyledAlert",
@@ -1904,6 +2111,10 @@ exports[`<Alert /> Simple Alert renders correctly other elements 1`] = `
   color: #004085;
 }
 
+.c0 hr {
+  border-top-color: #9fcdff;
+}
+
 <Alert
   element="p"
   type="primary"
@@ -1929,7 +2140,9 @@ exports[`<Alert /> Simple Alert renders correctly other elements 1`] = `
               [Function],
               ";color:",
               [Function],
-              ";",
+              ";hr{border-top-color:",
+              [Function],
+              ";}",
             ],
           },
           "displayName": "Alert__StyledAlert",

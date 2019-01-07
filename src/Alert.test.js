@@ -142,7 +142,7 @@ describe('<Alert />', () => {
         </Alert>,
       );
       expect(wrapper).toMatchSnapshot();
-      const children = wrapper.find(AlertLink).children();
+      const children = wrapper.find('AlertLink').children();
       expect(children).toHaveStyleRule('color', colors.link.primary);
     });
 
@@ -163,9 +163,32 @@ describe('<Alert />', () => {
           </Alert>,
         );
         expect(wrapper).toMatchSnapshot();
-        const children = wrapper.find(AlertLink).children();
+        const children = wrapper.find('AlertLink').children();
         expect(children).toHaveStyleRule('color', colors.link[type]);
       });
+    });
+  });
+
+  describe('Alert with content', () => {
+    it('renders the right elements', () => {
+      const texts = [
+        'Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.',
+        'Whenever you need to, be sure to use margin utilities to keep things nice and tidy.',
+      ];
+      const wrapper = mount(
+        <Alert>
+          <h4>Well done!</h4>
+          <p>{texts[0]}</p>
+          <hr />
+          <p>{texts[1]}</p>
+        </Alert>,
+      );
+      expect(wrapper).toMatchSnapshot();
+      expectChai(wrapper.find('p')).to.have.lengthOf(2);
+      wrapper.find('p').forEach((node, index) => {
+        expectChai(node.text()).to.eq(texts[index]);
+      });
+      expectChai(wrapper.find('hr')).to.have.lengthOf(1);
     });
   });
 });

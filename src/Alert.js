@@ -53,6 +53,9 @@ const buildAlert = (props: Props) => {
     border-color: ${styledProps(colors.borders, 'type')};
     background: ${styledProps(colors.backgrounds, 'type')};
     color: ${styledProps(colors.text, 'type')};
+    hr {
+      border-top-color: ${styledProps(colors.hr, 'type')};
+    }
   `;
   let { children } = props;
   if (children) {
