@@ -4,6 +4,7 @@ import renderer from 'react-test-renderer';
 import { enzymeFind } from 'styled-components/test-utils';
 import { mount } from 'enzyme';
 import { expect as expectChai } from 'chai';
+import sinon from 'sinon';
 
 import { Alert, AlertLink } from './';
 import colors from './styles/alert';
@@ -189,6 +190,21 @@ describe('<Alert />', () => {
         expectChai(node.text()).to.eq(texts[index]);
       });
       expectChai(wrapper.find('hr')).to.have.lengthOf(1);
+    });
+  });
+
+  describe('Dismissable Alert', () => {
+    it('performs the right actions', () => {
+      const clickCallback = sinon.spy();
+      const wrapper = mount(
+        <Alert onDismiss={clickCallback}>Test alert</Alert>,
+      );
+      expect(wrapper).toMatchSnapshot();
+      expectChai(wrapper.find('div')).to.have.lengthOf(1);
+      expectChai(wrapper.find('button')).to.have.lengthOf(1);
+      expectChai(wrapper.find('span')).to.have.lengthOf(1);
+      wrapper.find('button').simulate('click');
+      sinon.assert.called(clickCallback);
     });
   });
 });

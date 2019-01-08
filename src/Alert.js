@@ -4,6 +4,8 @@ import React from 'react';
 import styled from 'styled-components';
 import styledProps from 'styled-props';
 
+import { CloseButton as StyledCloseButton } from './Misc';
+
 // styles
 import colors from './styles/alert';
 
@@ -11,20 +13,27 @@ type Props = {
   element: string,
   children: any,
   type: string,
+  onDismiss?: Function,
 };
 
-const createComponent = (StyledComponent, props) =>
-  React.createElement(StyledComponent, props);
+const CloseButton = styled(StyledCloseButton)`
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.75rem 1.25rem;
+  color: inherit;
+`;
 
-const buildAlertLink = (props: Props) => {
-  const StyledAlertLink = styled(props.element)`
-    font-weight: 700;
-    color: ${styledProps(colors.link, 'type')};
-  `;
-  return createComponent(StyledAlertLink, props);
-};
+const StyledAlertLink = styled.a`
+  font-weight: 700;
+  color: ${styledProps(colors.link, 'type')};
+`;
 
-const AlertLink = (props: Props) => buildAlertLink(props);
+const AlertLink = (props: Props) => (
+  <StyledAlertLink {...props} as={props.element}>
+    {props.children}
+  </StyledAlertLink>
+);
 
 AlertLink.defaultProps = {
   element: 'a',
@@ -43,28 +52,41 @@ const searchForAlertLink = (children, type) =>
     return child;
   });
 
-const buildAlert = (props: Props) => {
-  const StyledAlert = styled(props.element)`
-    position: relative;
-    padding: 0.75rem 1.25rem;
-    margin-bottom: 1rem;
-    border: 1px solid transparent;
-    border-radius: 0.25rem;
-    border-color: ${styledProps(colors.borders, 'type')};
-    background: ${styledProps(colors.backgrounds, 'type')};
-    color: ${styledProps(colors.text, 'type')};
-    hr {
-      border-top-color: ${styledProps(colors.hr, 'type')};
-    }
-  `;
+const StyledAlert = styled.div`
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  border-color: ${styledProps(colors.borders, 'type')};
+  background: ${styledProps(colors.backgrounds, 'type')};
+  color: ${styledProps(colors.text, 'type')};
+  hr {
+    border-top-color: ${styledProps(colors.hr, 'type')};
+  }
+`;
+
+const Alert = (props: Props) => {
   let { children } = props;
   if (children) {
     children = searchForAlertLink(children, props.type);
+  } else {
+    children = [];
   }
-  return createComponent(StyledAlert, { ...props, children });
+  if (props.onDismiss) {
+    children = React.Children.map([...children, 'onDismiss'], child => {
+      if (child === 'onDismiss') {
+        return <CloseButton onClick={props.onDismiss} />;
+      }
+      return child;
+    });
+  }
+  return (
+    <StyledAlert as={props.element} {...props}>
+      {children}
+    </StyledAlert>
+  );
 };
-
-const Alert = (props: Props) => buildAlert(props);
 
 Alert.defaultProps = {
   element: 'div',

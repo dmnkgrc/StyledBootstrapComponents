@@ -2,6 +2,7 @@
 import React from 'react';
 
 import { storiesOf } from '@storybook/react';
+import { action } from '@storybook/addon-actions';
 
 import { Alert, AlertLink, BootstrapWrapper } from '../src';
 
@@ -75,5 +76,10 @@ storiesOf('Alerts', module)
           nice and tidy.
         </p>
       </Alert>
+    </BootstrapWrapper>
+  ))
+  .add('Dismissable', () => (
+    <BootstrapWrapper>
+      <Alert onDismiss={action('dismiss')}>Test alert</Alert>
     </BootstrapWrapper>
   ));
